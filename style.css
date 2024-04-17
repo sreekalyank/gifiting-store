@@ -1,0 +1,157 @@
+*{
+    font-family: cursive;
+}
+
+body{
+   background-color:#FCE9F1 ;
+   position: relative;
+      height: 100%;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head{
+    height:100px;
+    width: 1500px;
+    display: flex;
+    color: black ;
+
+}
+.us{
+    text-align: center;
+}
+.abt{
+    background-color:whitesmoke;
+    height: 300px;
+    width: 1500px;
+    display: flex;
+    margin-bottom: 50px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.abt:hover{
+    background-color:#D6589F;
+}
+#owner{
+    border-radius:50%;
+}
+#para{
+    text-align: center;
+    margin: 40px;
+    font-family: cursive;
+}
+.nameofp{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.product{
+    background-color: #FFEAEA;
+    display: flex;
+}
+
+
+.frames{
+    border: 2px solid transparent;
+    margin-left: 70px;
+    margin-right: 170px;
+    text-align: center;
+    margin-bottom: 40px;
+    top: 30px;
+    bottom: 30px;
+    transition: transform 1s ease;
+}
+.frames:hover{
+border: 1.5px solid black;
+transform:scale(1.1) ;
+}
+.tshirts{
+    border: 2px solid transparent;
+    margin-left: 20px;
+    margin-right:170px;
+    text-align: center;
+    margin-bottom: 40px;
+    transition: transform 1s ease;
+}
+.tshirts:hover{
+    border: 1.5px solid black;
+    transform:scale(1.1) ;
+}
+.keychains{
+    border: 2px solid transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    transition: transform 1s ease;
+}
+.keychains:hover{
+    border: 1.5px solid black;
+    transform:scale(1.1) ;
+}
+.p2{
+    background-color: #FFEAEA;
+    display: flex;
+    margin-bottom: 50px;
+}
+.pillows{
+    border: 2px solid transparent;
+    margin-left: 310px;
+    margin-right:170px;
+    text-align: center;
+    transition: transform 1s ease;
+}
+.pillows:hover{
+    border: 1.5px solid black;
+    transform:scale(1.1) ;
+}
+.pens{
+    border: 2px solid transparent;
+    text-align: center;
+    transition: transform 1s ease;
+}
+.pens:hover{
+    border: 1.5px solid black;
+    transform:scale(1.1) ;
+}
+.gal{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.swiper {
+    width: 1500px;
+    height: 500px;
+    position: cover;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #FCE9F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 1500px;
+    height: 500px;
+    object-fit: contain;
+    position: absolute;   
+  }
+  .reachout{
+    text-align: center;
+  }
+  .end{
+    display: flex;
+   margin-bottom: 40px;
+   margin-left: 50px;
+  }
+.contact{
+    margin-left: 50px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gifting Website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+</head>
+<body>
+     <header>
+     <div class="head">
+       <img src="png_20240414_223415_0000.png" height="100px" width="300px">
+    </div>
+    <div class="us">
+    <h2>
+        ABOUT US 
+    </h2>
+</div>
+       <div class="abt">
+        
+        <img  ABOUT US id="owner" src="gifts.jpg" >
+        <p id="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cum rem iusto eos cupiditate ipsam, minus illo quasi quas, recusandae soluta quos nulla possimus porro est voluptate dolores eius ratione.
+            Consequuntur eaque fuga voluptatem cumque delectus mollitia eveniet est non blanditiis cum cupiditate dolores porro neque, unde odit natus expedita ea, odio quibusdam ducimus voluptate molestiae vero. Reprehenderit, fuga omnis.
+            Nisi possimus nobis voluptatibus, similique ab asperiores quos illo sunt, corrupti sapiente quo eum rerum sequi veritatis nulla doloremque optio. Omnis, optio assumenda veritatis alias totam a sunt perferendis nemo!
+            Natus voluptatem voluptate fugiat iste provident, perspiciatis vitae inventore nam quis error officiis vero cumque ad delectus veniam incidunt? Vel, delectus. Cupiditate ipsam ut esse cum atque laudantium consectetur quaerat?
+        </p>
+       </div>
+     </header>
+     <body>
+        <div class="nameofp">
+            <h2>OUR MOST SELLING PRODUCTS</h2>
+        </div>
+        <div class="product">
+            <div class="frames">
+                <img src="frames.webp" height="200px" width="300px">
+                <p>customised frames</p>
+            </div>
+            <div class="tshirts">
+                <img src="tshirts.webp" height="200px" width="300px">
+                <p>customised tshirts</p>
+            </div>
+            <div class="keychains">
+                <img src="keychains.webp" height="200px" width="300px">
+                <p>keychains</p>
+            </div>
+        </div>
+        <div class="p2">
+            <div class="pillows">
+                <img src="pillows.webp" height="200px" width="300px">
+                <p>pillows</p>
+            </div>
+            <div class="pens">
+                <img src="pens.webp" height="200px" width="300px">
+                <p>pens</p>
+            </div>
+        </div>
+        <div class="gal">
+            <h2> OUR GALLERY</h2>
+        </div>
+        <!--swiper-->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="pillows.webp" height="100px" width="250px">
+            </div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+          <!-- lib -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
+           <!--initialise-->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",}
+              });
+             /*var swiper = new Swiper(".mySwiper", {
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              }, slidesPerView:4, centeredSlides:false,
+            
+            });*/
+          </script>
+          <div class="reachout">
+            <h2>
+                want to reach out us?
+            </h2>
+            <br>
+            <p>
+                Don't Worry..we got you
+            </p>
+          </div>
+          <div class="end">
+            <iframe src="https://maps.google.com/maps?q=17.455701582956547, 78.66635269988235&output=embed&t=k&z=16" width="450" height="450" frameborder="0" style="border:0"></iframe>
+            <div class="contact">
+            <h3>
+                contact us 
+            </h3>
+          <p><i class="fa-solid fa-phone"></i> :9999999999</p>
+            <p>
+                <i class="fa-solid fa-envelope"></i>: theway2gifts@gmail.com
+            </p>
+            <p>
+                <i class="fa-brands fa-whatsapp"></i>: 99999999990
+            </p>
+        </div>
+          </div>
+     </body>
+</body>
+</html>
